@@ -17,7 +17,23 @@ function notificaccion() {
         title: "Oops...",
         text: "We dont have social media yet!",
         confirmButtonText: "Done",
-        confirmButtonColor: 'black',
+        confirmButtonColor: 'red',
+        background: 'black',
+        color: 'white',
+
+
+    });
+}
+function notificaccion2() {
+    swal.fire({
+        imageUrl: god,
+        imageHeight: 180,
+        imageWidth: 140,
+        imageAlt: 'a small image',
+        title: "Oops...",
+        text: "We dont have greek goddess here yet!",
+        confirmButtonText: "Done",
+        confirmButtonColor: 'red',
         background: 'black',
         color: 'white',
 
@@ -50,7 +66,7 @@ export default function Home() {
                         <p style={{ color: 'white', marginTop: '-15px' }}>clarity, and inner peace, alongside the rich and fascinating world of the Greek gods.</p>
                         <p style={{ color: 'white', marginTop: '-15px' }}>Discover how ancient ideas can still guide us today, combining reason, myth,</p>
                         <p style={{ color: 'white', marginTop: '-15px' }}>and meaning in one inspiring space.</p>
-                        <button className="boton">Go to Goddess</button>
+                        <button onClick={notificaccion2} className="boton">Go to Goddess</button>
                         <div style={{ marginTop: '50px', display: 'flex', flexDirection: 'row', color: 'white', gap: '30px', fontSize: '10px', justifyContent: 'center' }}>
                             <XIcon onClick={notificaccion} />
                             <FacebookIcon onClick={notificaccion}/>
