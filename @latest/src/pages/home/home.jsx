@@ -17,7 +17,7 @@ function notificaccion() {
         title: "Oops...",
         text: "We dont have social media yet!",
         confirmButtonText: "Done",
-        confirmButtonColor: 'red',
+        confirmButtonColor: 'black',
         background: 'black',
         color: 'white',
 
