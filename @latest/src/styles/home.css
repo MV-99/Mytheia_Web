@@ -104,3 +104,24 @@ body {
     margin-top:-300px;
     
 }
+.frase{
+    color:white;
+    margin-top: 20px;
+    font-weight:100;
+    
+    .frase2{
+        letter-spacing: 0;
+        font-weight:100;
+        font-style:italic;
+        color:yellow;
+        margin-top:-10px;
+        font-size: 16px;
+
+    }
+}
+.frase3{
+    color:yellow;
+    font-weight:100;
+    font-size: 40px;
+    margin-left:-800px;
+}
