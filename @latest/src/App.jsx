@@ -3,7 +3,7 @@ import './App.css'
 import Home, { Navbar } from '../src/pages/home/home.jsx'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 //rutas 
-import Goddess from '../src/pages/goddess/goddess.jsx'
+import Goddess from './pages/goddess/goddess.jsx'
 import Stoicism from '../src/pages/stoicism/stoicism.jsx'
 import About from '../src/pages/about/about.jsx'
 import Contact from '../src/pages/contact/contact.jsx'

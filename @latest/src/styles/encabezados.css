@@ -1,0 +1,25 @@
+.arriba{
+    color:yellow;
+    margin-top:-200px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+
+    .texto{
+        color:white;
+        font-size:18px;
+        font-weight:bold;
+        margin-top:-1px;
+        letter-spacing: 0px;
+    }
+    
+    .imagen{
+        width:500px;
+        height:300px;
+        margin-top:40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
