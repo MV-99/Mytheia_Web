@@ -5,12 +5,13 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
-import swal from 'sweetalert2';
-import god from '../../../public/home.png';
+import Swal from 'sweetalert2';
+import { useNavigate } from 'react-router-dom';
+import home from '../../../public/home.png'
 
 function notificaccion() {
-    swal.fire({
-        imageUrl: god,
+    Swal.fire({
+        imageUrl: home,
         imageHeight: 180,
         imageWidth: 140,
         imageAlt: 'a small image',
@@ -25,8 +26,8 @@ function notificaccion() {
     });
 }
 function notificaccion2() {
-    swal.fire({
-        imageUrl: god,
+    Swal.fire({
+        imageUrl: home,
         imageHeight: 180,
         imageWidth: 140,
         imageAlt: 'a small image',
@@ -40,22 +41,27 @@ function notificaccion2() {
 
     });
 }
+export function Navbar() {
+    const navigate = useNavigate();
+    return (
+        <header className="navbar">
+            <div className="navbar-left">
+                <h5><code>MYTHEIA</code></h5>
+            </div>
+            <nav className="navbar-right">
+                <h5 onClick={() => navigate('/')}>Home</h5>
+                <h5 onClick={() => navigate('/goddess')}>Goddess</h5>
+                <h5 onClick={() => navigate('/stoicism')}>Stoicism</h5>
+                <h5 onClick={() => navigate('/about')}>About</h5>
+                <h5 onClick={() => navigate('/contact')}>Contact</h5>
+            </nav>
+        </header>
+    );
+}
 
 export default function Home() {
     return (
         <div>
-            <header className="navbar">
-                <div className="navbar-left">
-                    <h5><code>MYTHEIA</code></h5>
-                </div>
-                <nav className="navbar-right">
-                    <h5>Home</h5>
-                    <h5>Goddess</h5>
-                    <h5>Stoicism</h5>
-                    <h5>About</h5>
-                    <h5>Contact</h5>
-                </nav>
-            </header>
             <div className="row-parent">
                 <div className="row-info">
                     <div style={{ backgroundColor: 'black', marginTop: '60px' }}>
@@ -69,10 +75,10 @@ export default function Home() {
                         <button onClick={notificaccion2} className="boton">Go to Goddess</button>
                         <div style={{ marginTop: '50px', display: 'flex', flexDirection: 'row', color: 'white', gap: '30px', fontSize: '10px', justifyContent: 'center' }}>
                             <XIcon onClick={notificaccion} />
-                            <FacebookIcon onClick={notificaccion}/>
-                            <YouTubeIcon onClick={notificaccion}/>
-                            <EmailIcon onClick={notificaccion}/>
-                            <InstagramIcon onClick={notificaccion}/>
+                            <FacebookIcon onClick={notificaccion} />
+                            <YouTubeIcon onClick={notificaccion} />
+                            <EmailIcon onClick={notificaccion} />
+                            <InstagramIcon onClick={notificaccion} />
                         </div>
                     </div>
                 </div>
