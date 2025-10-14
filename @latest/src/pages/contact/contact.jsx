@@ -47,7 +47,7 @@ export default function Contact() {
           width: '350px', height: '100px', borderRadius: '15px', outline: 'none',
           borderColor: 'white', backgroundColor: 'black', color: 'white',paddingLeft: '15px'
         }} />
-        <button className="contact-btn-anim"  onClick={Notificacion} style={{ width: '373px', height: '40px', borderRadius: '15px', backgroundColor: 'yellow', color: 'black', cursor: 'pointer', marginTop: '20px', fontWeight: 'bold' }}>Send Message</button>
+        <button className="contact-btn-anim"  onClick={Notificacion} style={{ width: '373px', height: '40px', borderRadius: '15px', background:'linear-gradient(to right, yellow, rgb(249, 156, 5))', color: 'black', cursor: 'pointer', marginTop: '20px', fontWeight: 'bold' }}>Send Message</button>
       </div>
     </div>
   );
