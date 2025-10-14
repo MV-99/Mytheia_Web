@@ -1,6 +1,22 @@
 
 
 
+import '../../styles/contact.css';
+import swal from 'sweetalert2';
+
+function Notificacion() {
+  swal.fire({
+    title: "Oops...",
+    icon:'info',
+    iconColor:'yellow',
+    text: "We dont have email  yet!",
+    confirmButtonText: "Done",
+    confirmButtonColor: "black",
+    background: "black",
+    color: "white",
+  })
+}
+
 export default function Contact() {
   return (
     <div
@@ -19,19 +35,19 @@ export default function Contact() {
         <h4 style={{ marginLeft: '-300px', marginBottom: '5px', fontSize: '18px', letterSpacing: '3px' }}> <code>Name</code></h4>
         <input type="text" placeholder="  Write your name" style={{
           width: '350px', height: '35px', borderRadius: '15px', outline: 'none',
-          borderColor: 'white', backgroundColor: 'black', color: 'white'
+          borderColor: 'white', backgroundColor: 'black', color: 'white',paddingLeft: '15px'
         }} />
         <h4 style={{ marginLeft: '-300px', marginBottom: '5px', fontSize: '18px', letterSpacing: '3px' }}> <code>Email</code></h4>
         <input type="email" placeholder="  Write your email" style={{
           width: '350px', height: '35px', borderRadius: '15px', outline: 'none',
-          borderColor: 'white', backgroundColor: 'black', color: 'white'
+          borderColor: 'white', backgroundColor: 'black', color: 'white',paddingLeft: '15px'
         }} />
         <h4 style={{ marginLeft: '-270px', marginBottom: '5px', fontSize: '18px', letterSpacing: '3px' }}> <code>Message</code></h4>
         <input type="email" placeholder="  Write your email" style={{
           width: '350px', height: '100px', borderRadius: '15px', outline: 'none',
-          borderColor: 'white', backgroundColor: 'black', color: 'white'
+          borderColor: 'white', backgroundColor: 'black', color: 'white',paddingLeft: '15px'
         }} />
-        <button style={{ width: '360px', height: '40px', borderRadius: '15px', backgroundColor: 'yellow', color: 'black', fontWeight: 'bold', cursor: 'pointer', marginTop: '20px' }}>Send Message</button>
+        <button className="contact-btn-anim"  onClick={Notificacion} style={{ width: '373px', height: '40px', borderRadius: '15px', backgroundColor: 'yellow', color: 'black', cursor: 'pointer', marginTop: '20px', fontWeight: 'bold' }}>Send Message</button>
       </div>
     </div>
   );
