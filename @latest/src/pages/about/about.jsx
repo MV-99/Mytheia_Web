@@ -9,6 +9,7 @@ function circularImageStyle(size = '155px') {
   };
 }
 import '../../styles/encabezados.css'
+import '../../styles/about.css';
 import HourglassEmptyOutlinedIcon from '@mui/icons-material/HourglassEmptyOutlined';
 import SpaOutlinedIcon from '@mui/icons-material/SpaOutlined';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
@@ -68,30 +69,21 @@ export default function About() {
             <img src="lanita.png" alt="lanita" style={circularImageStyle()}/>
             <h4 style={{ color: 'white', fontWeight: 'normal', letterSpacing: '0px', fontSize: '18px', marginTop: '8px' }}>Elizabeth Woolridge Grant</h4>
             <h5 style={{ color: 'yellow', letterSpacing: '0px', fontSize: '15px', marginTop: '-20px' }}>Founder-Full development</h5>
-            <button style={{
-              color: 'black', background: 'linear-gradient(to right, yellow, rgb(249, 156, 5))',
-              borderWidth: '1px', borderStyle: 'solid', borderRadius: '40px', width: '200px', height: '40px', fontSize: '15px', marginTop: '-60px', fontWeight:'bolder'
-            }}>Watch her job</button>
+            <button onClick={()=>window.open('https://www.youtube.com/@LanaDelRey', '_blank')} className="about-btn-anim">Watch her job</button>
           </div>
           {/*foto2*/}
           <div>
             <img src="theweek.jpg" alt="the week" style={circularImageStyle()} />
             <h4 style={{ color: 'white', fontWeight: 'normal', letterSpacing: '0px', fontSize: '18px', marginTop: '8px' }}>Abel Makkonen Tesfaye</h4>
             <h5 style={{ color: 'yellow', letterSpacing: '0px', fontSize: '15px', marginTop: '-20px' }}>Writer/Investigator</h5>
-            <button style={{
-              color: 'black', background: 'linear-gradient(to right, yellow, rgb(249, 156, 5))',
-              borderWidth: '1px', borderStyle: 'solid', borderRadius: '40px', width: '200px', height: '40px', fontSize: '15px', marginTop: '-60px', fontWeight:'bolder'
-            }}>Watch his job</button>
+            <button onClick={()=>window.open('https://www.youtube.com/@TheWeeknd','_blank')} className="about-btn-anim">Watch his job</button>
           </div>
           {/*foto3*/}
           <div>
             <img src="ariana.jpg" alt="ari" style={circularImageStyle()} />
             <h4 style={{ color: 'white', fontWeight: 'normal', letterSpacing: '0px', fontSize: '18px', marginTop: '8px' }}>Ariana Grande-Butera</h4>
             <h5 style={{ color: 'yellow', letterSpacing: '0px', fontSize: '15px', marginTop: '-20px' }}>IU-Design</h5>
-            <button style={{
-              color: 'black', background: 'linear-gradient(to right, yellow, rgb(249, 156, 5))',
-              borderWidth: '1px', borderStyle: 'solid', borderRadius: '40px', width: '200px', height: '40px', fontSize: '15px', marginTop: '-60px', fontWeight:'bolder'
-            }}>Watch her job</button>
+            <button  onClick={()=>window.open('https://www.youtube.com/@ArianaGrande','_blank')}className="about-btn-anim">Watch her job</button>
           </div>
         </div>
       </div>
@@ -99,3 +91,10 @@ export default function About() {
     </div>
   );
 }
+
+
+/***
+ * <button onClick={() => window.open('https://www.ejemplo.com', '_blank')}>
+    Ir al sitio
+   </button>
+ */

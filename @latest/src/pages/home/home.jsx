@@ -48,7 +48,7 @@ export function Navbar() {
       </div>
       <nav className="navbar-right">
         <h5 onClick={() => navigate("/")}>Home</h5>
-        <h5 onClick={() => navigate("/goddess")}>Goddess</h5>
+        <h5 onClick={() => navigate("/goddess")}>Gods</h5>
         <h5 onClick={() => navigate("/stoicism")}>Stoicism</h5>
         <h5 onClick={() => navigate("/about")}>About</h5>
         <h5 onClick={() => navigate("/contact")}>Contact</h5>

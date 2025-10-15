@@ -8,7 +8,7 @@ export default function Navbar(){
                 </div>
                 <nav className="navbar-right">
                     <h5>Home</h5>
-                    <h5>Goddess</h5>
+                    <h5><Gods></Gods></h5>
                     <h5>Stoicism</h5>
                     <h5>About</h5>
                     <h5>Contact</h5>

@@ -1,0 +1,21 @@
+.about-btn-anim {
+  color: black;
+  background: linear-gradient(to right, yellow, rgb(249, 156, 5));
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 40px;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: -60px;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.about-btn-anim:hover {
+  background: linear-gradient(to right, #ffe066, #ffb347);
+  transform: scale(1.07);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
