@@ -37,8 +37,24 @@ function notificaccion2() {
     color: "white",
   });
 }
+
+//funcion de correo
+function Enviar() {
+  //parte del correo
+
+  const destinatario = "kellyvallecillo999@gmail.com";
+  const asunto = encodeURIComponent("Hola kelly Vallecillo☀️🦋");
+  const cuerpo = encodeURIComponent(
+    "Este correo fue generado desde mi web en React!🎉⚡"
+  );
+
+  const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${destinatario}&su=${asunto}&body=${cuerpo}`;
+  window.open(gmailURL, "_blank");
+}
+
 export function Navbar() {
   const navigate = useNavigate();
+
   return (
     <header className="navbar">
       <div className="navbar-left">
@@ -89,7 +105,12 @@ export default function Home() {
             <p style={{ color: "white", marginTop: "-15px" }}>
               and meaning in one inspiring space.
             </p>
-            <button  onClick={()=>window.open('https://www.youtube.com/@DailyStoic','_blank')} className="boton">
+            <button
+              onClick={() =>
+                window.open("https://www.youtube.com/@DailyStoic", "_blank")
+              }
+              className="boton"
+            >
               Go to video demo
             </button>
             <div
@@ -105,8 +126,15 @@ export default function Home() {
             >
               <XIcon onClick={notificaccion} />
               <FacebookIcon onClick={notificaccion} />
-              <YouTubeIcon onClick={notificaccion} />
-              <EmailIcon onClick={notificaccion} />
+              <YouTubeIcon
+                onClick={() =>
+                  window.open(
+                    "https://www.youtube.com/@RealStoicJournal",
+                    "_blank"
+                  )
+                }
+              />
+              <EmailIcon onClick={Enviar} />
               <InstagramIcon onClick={notificaccion} />
             </div>
           </div>
