@@ -89,8 +89,8 @@ export default function Home() {
             <p style={{ color: "white", marginTop: "-15px" }}>
               and meaning in one inspiring space.
             </p>
-            <button onClick={notificaccion2} className="boton">
-              Go to Goddess
+            <button  onClick={()=>window.open('https://www.youtube.com/@DailyStoic','_blank')} className="boton">
+              Go to video demo
             </button>
             <div
               style={{

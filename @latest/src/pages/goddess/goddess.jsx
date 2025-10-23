@@ -17,7 +17,7 @@ export default function Goddess() {
     <Cards 
      src="cards/apollo.png"
      alt="card1"
-     style={{width:'200px', height:'200px',marginLeft:'50px',marginTop:'10px',borderWidth:'1px',borderStyle:'solid',borderColor:'white',borderRadius:'15px'}}
+     style={{width:'200px', height:'200px',marginLeft:'50px',marginTop:'10px',borderRadius:'15px'}}
      titulo="Apollo"
      style2={{color:'yellow',fontWeight:'bolder',fontSize:'22px'}}
      parrafo=" Apollo was one of the most important gods in Greek mythology.
@@ -30,7 +30,7 @@ export default function Goddess() {
     <Cards 
      src="cards/atenea.png"
      alt="card1"
-     style={{width:'200px', height:'200px',marginLeft:'50px',marginTop:'10px',borderWidth:'1px',borderStyle:'solid',borderColor:'white',borderRadius:'15px'}}
+     style={{width:'200px', height:'200px',marginLeft:'50px',marginTop:'10px',borderRadius:'15px'}}
      titulo="Athena"
      style2={{color:'yellow',fontWeight:'bolder',fontSize:'22px'}}
      parrafo="  Athena was the Greek goddess of wisdom and war.
@@ -43,7 +43,7 @@ export default function Goddess() {
     <Cards 
      src="cards/hefesto.png"
      alt="card1"
-     style={{width:'100px', height:'180px',marginLeft:'90px',marginTop:'10px',borderWidth:'1px',borderStyle:'solid',borderColor:'white',borderRadius:'15px'}}
+     style={{width:'100px', height:'180px',marginLeft:'90px',marginTop:'10px', borderRadius:'15px'}}
      titulo="Hephaestus"
      style2={{color:'yellow',fontWeight:'bolder',fontSize:'22px'}}
      parrafo="Hephaestus was the Greek god of fire and blacksmiths.
@@ -59,7 +59,7 @@ export default function Goddess() {
     <Cards 
      src="cards/hermes.png"
      alt="card1"
-     style={{width:'140px', height:'200px',marginLeft:'80px',marginTop:'10px',borderWidth:'1px',borderStyle:'solid',borderColor:'white',borderRadius:'15px'}}
+     style={{width:'140px', height:'200px',marginLeft:'80px',marginTop:'10px',borderRadius:'15px'}}
      titulo="Hermes"
      style2={{color:'yellow',fontWeight:'bolder',fontSize:'22px'}}
      parrafo="   Hermes was the Greek god of travel, trade, and communication.
@@ -72,7 +72,7 @@ export default function Goddess() {
     <Cards 
      src="cards/hestia.png"
      alt="card1"
-     style={{width:'200px', height:'200px',marginLeft:'50px',marginTop:'10px',borderWidth:'1px',borderStyle:'solid',borderColor:'white',borderRadius:'15px'}}
+     style={{width:'200px', height:'200px',marginLeft:'50px',marginTop:'10px',borderRadius:'15px'}}
      titulo="Hestia"
      style2={{color:'yellow',fontWeight:'bolder',fontSize:'22px'}}
      parrafo=" Hestia was the Greek goddess of the hearth and home.
@@ -85,7 +85,7 @@ export default function Goddess() {
     <Cards 
      src="cards/merteo.avif"
      alt="card1"
-     style={{width:'210px', height:'200px',marginLeft:'40px',marginTop:'10px',borderWidth:'1px',borderStyle:'solid',borderColor:'white',borderRadius:'15px'}}
+     style={{width:'210px', height:'200px',marginLeft:'40px',marginTop:'10px',borderRadius:'15px'}}
      titulo="Morpheus"
      style2={{color:'yellow',fontWeight:'bolder',fontSize:'22px'}}
      parrafo="Morpheus was the Greek god of dreams.
@@ -101,7 +101,7 @@ export default function Goddess() {
     <Cards 
      src="cards/mike.png"
      alt="card1"
-     style={{width:'140px', height:'200px',marginLeft:'80px',marginTop:'10px',borderWidth:'1px',borderStyle:'solid',borderColor:'white',borderRadius:'15px'}}
+     style={{width:'140px', height:'200px',marginLeft:'80px',marginTop:'10px',borderRadius:'15px'}}
      titulo="Nike"
      style2={{color:'yellow',fontWeight:'bolder',fontSize:'22px'}}
      parrafo=" Nike was the Greek goddess of victory.
@@ -114,7 +114,7 @@ export default function Goddess() {
     <Cards 
      src="cards/zeus.png"
      alt="card1"
-     style={{width:'265px', height:'180px',marginLeft:'18px',marginTop:'30px',borderWidth:'1px',borderStyle:'solid',borderColor:'white',borderRadius:'15px'}}
+     style={{width:'265px', height:'180px',marginLeft:'18px',marginTop:'30px',borderRadius:'15px'}}
      titulo="Zeus"
      style2={{color:'yellow',fontWeight:'bolder',fontSize:'22px'}}
      parrafo=" Zeus was the king of the Greek gods.
