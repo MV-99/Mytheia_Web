@@ -8,6 +8,11 @@ import XIcon from "@mui/icons-material/X";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import home from "../../../public/home.png";
+import AccessibilityIcon from '@mui/icons-material/Accessibility';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import PaidIcon from '@mui/icons-material/Paid';
+
 
 function notificaccion() {
   Swal.fire({
@@ -142,6 +147,49 @@ export default function Home() {
         <div className="row-img">
           <img className="img-side" src="home.png" alt="el_logo" />
         </div>
+        <div >
+        <h2 style={{color:'yellow', fontSize:'30px'}}><code>More than just a tool</code></h2>
+        <p style={{color:'white', marginTop:'-10px'}}>Explore what else we can do for you</p>
+      </div>
+      {/*segunda parte de home 0*/}
+      <div style={{display:'flex', flexDirection:'row', gap:'20px', marginTop:'50px'}}>
+      {/*cards componente*/}
+      <div style={{ width:'300px', height:'300px', backgroundColor:'black', borderStyle:'solid',
+        borderColor:'white', borderWidth:'1px', borderRadius:'10px'
+      }}>
+      <AccessibilityIcon style={{color:'yellow', fontSize:'60px', marginTop:'20px'}}/>
+      <h3 style={{color:'white', marginTop:'-8px'}}>More Actions</h3>
+      <p style={{color:'white', textAlign:'center'}}>We helps you take more action by teaching you to focus on what you can control,
+         build mental strength, and stay consistent even when motivation fades.</p>
+      </div>
+      {/*cards componente 1*/}
+      <div style={{ width:'300px', height:'300px', backgroundColor:'black', borderStyle:'solid',
+        borderColor:'white', borderWidth:'1px', borderRadius:'10px'
+      }}>
+      <AccessTimeIcon style={{color:'yellow', fontSize:'55px', marginTop:'20px'}}/>
+      <h3 style={{color:'white', marginTop:'-8px'}}>More Time</h3>
+      <p style={{color:'white', textAlign:'center'}}>We helps you gain more time by teaching you to focus on what truly matters and
+         cut out distractions that waste your energy.</p>
+      </div>
+       {/*cards componente 2*/}
+      <div style={{ width:'300px', height:'300px', backgroundColor:'black', borderStyle:'solid',
+        borderColor:'white', borderWidth:'1px', borderRadius:'10px'
+      }}>
+      <CalendarMonthIcon style={{color:'yellow', fontSize:'50px', marginTop:'20px'}}/>
+      <h3 style={{color:'white', marginTop:'-8px'}}>More Plans</h3>
+      <p style={{color:'white', textAlign:'center'}}>We helps you create better plans by showing how discipline
+         and clarity turn goals into consistent, daily actions.</p>
+      </div>
+       {/*cards componente 3*/}
+      <div style={{ width:'300px', height:'300px', backgroundColor:'black', borderStyle:'solid',
+        borderColor:'white', borderWidth:'1px', borderRadius:'10px'
+      }}>
+      <PaidIcon style={{color:'yellow', fontSize:'50px', marginTop:'20px'}}/>
+      <h3 style={{color:'white', marginTop:'-8px'}}>More Money</h3>
+      <p style={{color:'white', textAlign:'center'}}>We helps you make more money by strengthening your mindset, 
+        improving your habits, and keeping you focused on long-term success.</p>
+      </div>
+      </div>
       </div>
     </div>
   );
