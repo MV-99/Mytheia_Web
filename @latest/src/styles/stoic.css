@@ -1,0 +1,116 @@
+.titulo-seccion {
+    margin-left: 20px;
+    color: yellow;
+}
+
+.titulo-grande {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin: 40px 0 20px;
+    color: yellow;
+}
+
+
+.seccion {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+.parrafo,
+.parrafo2 {
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 10px;
+    letter-spacing: 0px;
+}
+
+
+.borde-amarillo {
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.tarjetas {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background: black;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 0 4px 10px rgba(255, 255, 0, 0.2);
+}
+
+.tarjeta .cita {
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 3px solid yellow;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 8px;
+    color: white;
+}
+
+.sub {
+    font-size: 13px;
+    color: #d0d0d0;
+}
+
+
+.lista-daily {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.item span {
+    font-weight: bold;
+    background: yellow;
+    color: black;
+    border-radius: 50%;
+    padding: 15px 18px;
+    margin-right: 20px;
+}
+
+
+.cuadro-ensenanzas {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 70%;
+}
+ .cita {
+    background: rgba(255, 178, 178, 0.644);
+    border-left: 3px solid yellow;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 8px;
+    color: white;
+    font-size:15px;
+    font-weight: normal;
+    letter-spacing: 0px;
+}
