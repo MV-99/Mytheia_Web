@@ -96,7 +96,12 @@ export default function Goddess() {
               background: "linear-gradient(to right, yellow, rgb(249, 156, 5))",
               borderRadius: "30px",
             }}
-            onClick={()=> window.open("https://youtu.be/DeIbRemE6Kg?si=beaJ0Nmvc9tmkp79", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://youtu.be/DeIbRemE6Kg?si=beaJ0Nmvc9tmkp79",
+                "_blank"
+              )
+            }
           >
             See more
           </button>
@@ -135,8 +140,15 @@ export default function Goddess() {
               marginTop: "-10px",
               alignText: "justify",
             }}
+            onClick={() =>
+              window.open(
+                "https://youtu.be/PyfLtu73eTw?si=ArAmaU1H9Omhsd9p",
+                "_blank"
+              )
+            }
             texto="Ver más"
           />
+
           <Cards
             src="cards/atenea.png"
             alt="card1"
@@ -160,8 +172,15 @@ export default function Goddess() {
               marginTop: "-10px",
               alignText: "justify",
             }}
+            onClick={() =>
+              window.open(
+                "https://youtu.be/0W8mweVVULo?si=J_J4jEryVod6ucPk",
+                "_blank"
+              )
+            }
             texto="Ver más"
           />
+
           <Cards
             src="cards/hefesto.png"
             alt="card1"
@@ -185,6 +204,12 @@ export default function Goddess() {
               marginTop: "-10px",
               alignText: "justify",
             }}
+            onClick={() =>
+              window.open(
+                "https://youtu.be/wDd-q0HpAXA?si=VPfQfh4Smu5N-GM5",
+                "_blank"
+              )
+            }
             texto="Ver más"
           />
         </div>
@@ -220,6 +245,12 @@ export default function Goddess() {
               marginTop: "-10px",
               alignText: "justify",
             }}
+            onClick={() =>
+              window.open(
+                "https://youtu.be/yKnyD4t_VV0?si=fooMcG4dNXbr7aUq",
+                "_blank"
+              )
+            }
             texto="Ver más"
           />
           <Cards
@@ -245,8 +276,15 @@ export default function Goddess() {
               marginTop: "-10px",
               alignText: "justify",
             }}
+            onClick={() =>
+              window.open(
+                "https://youtu.be/QAWkvLt_Qbc?si=-z7yYgnH2dlur3t_",
+                "_blank"
+              )
+            }
             texto="Ver más"
           />
+
           <Cards
             src="cards/merteo.avif"
             alt="card1"
@@ -270,6 +308,12 @@ export default function Goddess() {
               marginTop: "-10px",
               alignText: "justify",
             }}
+            onClick={() =>
+              window.open(
+                "https://youtu.be/UT8xkAKMvac?si=NgMh1O0JzCzjy7Tv",
+                "_blank"
+              )
+            }
             texto="Ver más"
           />
         </div>
@@ -305,8 +349,15 @@ export default function Goddess() {
               marginTop: "-10px",
               alignText: "justify",
             }}
+            onClick={() =>
+              window.open(
+                "https://youtu.be/gKI1DCtF38o?si=5L4GstCz9W8uf3lX",
+                "_blank"
+              )
+            }
             texto="Ver más"
           />
+
           <Cards
             src="cards/zeus.png"
             alt="card1"
@@ -330,6 +381,12 @@ export default function Goddess() {
               marginTop: "-10px",
               alignText: "justify",
             }}
+            onClick={() =>
+              window.open(
+                "https://youtu.be/Zne5vwXHPrI?si=t9WaLo2mV4ZPbtrX",
+                "_blank"
+              )
+            }
             texto="Ver más"
           />
         </div>

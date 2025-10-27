@@ -17,15 +17,15 @@ export default function Stoicism() {
         </h4>
         <p className="parrafo">
           Stoicism is an ancient Greek philosophy founded in Athens by Zeno of
-          Citium in the early 3rd century BC. It teaches that virtue (wisdom,
+          Citium in the early 3rd century BC⚡ It teaches that virtue (wisdom,
           courage, justice, and temperance) is the highest good and that we
-          should focus on what we can control while accepting what we cannot.
+          should focus on what we can control while accepting what we cannot💪
         </p>
         <p className="parrafo2">
           The Stoics believed that living in harmony with nature and reason
-          leads to a tranquil mind and a meaningful life. This philosophy has
+          leads to a tranquil mind and a meaningful life 🪙 This philosophy has
           influenced countless leaders, thinkers, and individuals throughout
-          history.
+          history🦋
         </p>
       </div>
 
@@ -158,26 +158,26 @@ export default function Stoicism() {
         <h2 className="titulo-grande">Key Stoic Teachings</h2>
         <div className="cuadro-ensenanzas borde-amarillo">
           <p className="parrafo">
-            <strong>The Dichotomy of Control</strong>
+            <strong>⚡The Dichotomy of Control</strong>
             <br />
             Some things are within our control (our thoughts, actions, values)
             and some are not. Focus your energy only on what you can control.
           </p>
           <p className="parrafo">
-            <strong>Amor Fati (Love of Fate)</strong>
+            <strong>⚡Amor Fati (Love of Fate)</strong>
             <br />
             Not just accept what happens, but love it. Every event is an
             opportunity for growth and part of the natural order of the
             universe.
           </p>
           <p className="parrafo">
-            <strong>Memento Mori (Remember Death)</strong>
+            <strong>⚡Memento Mori (Remember Death)</strong>
             <br />
             Remembering our mortality helps us appreciate life, prioritize what
             matters, and live with urgency and purpose.
           </p>
           <p className="parrafo">
-            <strong>Premeditatio Malorum</strong>
+            <strong>⚡Premeditatio Malorum</strong>
             <br />
             Visualizing potential misfortunes prepares us mentally and reduces
             anxiety about the future.
